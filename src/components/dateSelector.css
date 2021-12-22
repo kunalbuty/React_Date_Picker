@@ -1,0 +1,79 @@
+.pastDates {
+	width:40px;
+	height:40px;
+	color:lightgray;
+	text-align: center;
+	vertical-align: auto;
+	/* border:1px solid lightgray; */
+	/* border-bottom:1px solid grey; */
+
+}
+
+.invisibleDates {
+	width:40px;
+	height:40px;
+	color:gray;
+	text-align: center;
+	vertical-align: auto;
+	/* border-right:1px solid grey;
+	border-bottom:1px solid grey; */
+
+}
+
+.exit {
+	margin:10px;
+	color:lightgray;
+}
+
+.currentDates {
+	width:40px;
+	height:40px;
+	text-align: center;
+	vertical-align: auto;
+	/* border:1px solid lightgrey; */
+	border-collapse: collapse;
+}
+
+.currentDates:hover {
+	background-color: lightblue;
+}
+
+.table {
+	border-collapse: collapse;
+}
+.calendar {
+	margin:auto;
+	overflow:auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:solid lightblue;
+	border-radius:5px;
+
+	height:300px;
+	width:300px;
+}
+
+.selected {
+	width:40px;
+	height:40px;
+	text-align: center;
+	vertical-align: auto;
+	border:1px solid lightblue;
+	border-collapse: collapse;
+	background-color: lightblue;
+}
+
+.h3 {
+	text-align: center;
+	margin: auto;
+}
+
+.input {
+	border: none;
+border-bottom: 1px solid #3a3a3a;
+margin-bottom: 10px;
+border-radius: 3px;
+outline: none;
+padding: 0px 0px 5px 5px;
+}
+
+
